@@ -1,10 +1,8 @@
 import Vue from "vue";
+import Layout from "../theme/Layout.vue";
 
 const app = new Vue({
-  data: {
-    hello: "hello4"
-  },
-  template: '<div id="app">{{hello}}</div>'
+  ...Layout
 });
 
 export {
